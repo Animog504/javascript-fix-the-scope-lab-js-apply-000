@@ -31,5 +31,6 @@ var funkyFunction = function() {
 var theFunk = funkyFunction() /*returns function() {
     return "FUNKY!"
   }*/
+theFunk = theFunk();
 
 alert(theFunk())
