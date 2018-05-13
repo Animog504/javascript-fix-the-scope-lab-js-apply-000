@@ -33,4 +33,4 @@ var theFunk = funkyFunction() /*returns function() {
   }*/
 theFunk = theFunk();
 
-alert(theFunk())
+//alert(theFunk())
