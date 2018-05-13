@@ -28,9 +28,13 @@ var funkyFunction = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction() /*returns function() {
+
+var theFunk = funkyFunction()() //is this for real?
+
+/*returns function() {
     return "FUNKY!"
   }*/
-theFunk = theFunk(); // make theFunk equal to the function within theFunk variable. 
+//*OLD* theFunk = theFunk(); // make theFunk equal to the function within theFunk variable.
+//apparently you can call a function in a function like <name>()();  
 
 //alert(theFunk()) for testing
