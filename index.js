@@ -31,6 +31,6 @@ var funkyFunction = function() {
 var theFunk = funkyFunction() /*returns function() {
     return "FUNKY!"
   }*/
-theFunk = theFunk();
+theFunk = theFunk(); // make theFunk equal to the function within theFunk variable. 
 
-//alert(theFunk())
+//alert(theFunk()) for testing
